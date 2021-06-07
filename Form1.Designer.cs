@@ -63,7 +63,7 @@ namespace FORM_PROGET
             this.MaximumSize = new System.Drawing.Size(200, 200);
             this.MinimumSize = new System.Drawing.Size(200, 200);
             this.Name = "Form1";
-            this.Text = "хе-хе";
+            this.Text = "программа";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
