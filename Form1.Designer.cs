@@ -30,6 +30,7 @@ namespace FORM_PROGET
         private void InitializeComponent()
         {
             this.CALL = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // CALL
@@ -43,11 +44,21 @@ namespace FORM_PROGET
             this.CALL.UseVisualStyleBackColor = true;
             this.CALL.Click += new System.EventHandler(this.CALL_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 129);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(160, 20);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "ОНА ЗАКРОЕТ ПРОГРАММУ";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(184, 161);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.CALL);
             this.MaximumSize = new System.Drawing.Size(200, 200);
             this.MinimumSize = new System.Drawing.Size(200, 200);
@@ -62,6 +73,7 @@ namespace FORM_PROGET
         #endregion
 
         private System.Windows.Forms.Button CALL;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

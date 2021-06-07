@@ -24,13 +24,19 @@ namespace FORM_PROGET
 
         private void CALL_Click(object sender, EventArgs e)
         {
-            OpenFileDialog(ShowDialog);
-            //this.Close();
+            //TextBox
+            //OpenFileDialog(ShowDialog);
+            this.Close();
         }
 
         private void OpenFileDialog(Func<DialogResult> showDialog)
         {
             
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
